@@ -20,6 +20,7 @@ if SHIELD_LOTUS58_LEFT || SHIELD_LOTUS58_RIGHT
 config ZMK_SPLIT
     default y
 
+# Setting up configuration for OLED display
 if ZMK_DISPLAY
 
 config I2C
