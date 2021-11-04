@@ -24,7 +24,7 @@ config ZMK_SPLIT
 if ZMK_DISPLAY
 
 config I2C
-	default y
+	default n
 
 config SSD1306
 	default y
